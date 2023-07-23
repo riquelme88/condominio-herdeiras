@@ -1,0 +1,235 @@
+@media screen and (max-width: 425px){
+    .header{
+    }
+    
+    .tittle{
+        width: 90%
+       
+    }
+    .tittle h1{
+        font-size: 40px;
+    }
+
+    .animal-general{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        height: 840px;
+    }
+
+    .animal-detailed{
+        grid-row: 2/3;
+        margin-top: 10px;
+    }
+
+    .animal-information{
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+
+    .family-tree{
+        max-width: 425px;
+    }
+
+    #back{
+        display: none;
+    }
+
+    .family-tree .tittle{
+        width: 60%;
+        height: 75px;
+    }
+
+    .family-tree .tittle h2{
+        font-size: 30px;
+        text-align: center;
+        
+    }
+    .body-arvore{
+        margin-top: 40px;
+        margin-left: 600px;
+        
+    }
+    #wrapper{
+        overflow: scroll;
+        
+    }
+    .body-arvore .image-area{
+        width: 120px;
+        height: 190px;
+        margin-left: 100px;
+       
+    }
+
+    #wrapper .branch{
+        position: relative;
+        left: 30px;
+        margin-left: 166px;
+    }
+
+    #wrapper .label{
+        
+    }
+
+    #wrapper .entry{
+        min-height: 25px;
+    }
+
+
+}
+@media screen and (min-width: 768px) and (max-width: 900px){
+    .header{
+        height: 140px;
+    }
+    
+    .tittle{
+        width: 80%;
+       
+    }
+    .tittle h1{
+        font-size: 60px;
+        letter-spacing: 1px;
+    }
+
+    .animal-general{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        height: 840px;
+    }
+
+    .animal-detailed{
+        grid-row: 2/3;
+        margin-top: 10px;
+    }
+
+    .animal-information{
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+
+    .family-tree .tittle{
+        width: 40%;
+        height: 75px;
+    }
+
+    .family-tree .tittle h2{
+        font-size: 30px;
+        text-align: center;
+        
+    }
+
+    .body-arvore{
+        margin-top: 40px;
+        
+    }
+    #wrapper{
+        overflow: scroll;
+        margin-left: 100px;
+    }
+
+    #wrapper .label{
+    
+    }
+
+    #wrapper .entry{
+        min-height: 25px;
+    }
+
+   
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+    .tittle{
+        width: 75%;
+        height: 90%;
+        margin-left: -50px;
+    }
+
+    .tittle h1{
+        font-size: 56px;
+        letter-spacing: 0px;
+    }
+
+    .animal-general{
+        margin-left: -50px;
+    }
+
+    .family-tree{
+        margin-left: -10px;
+        max-width: 1020px;
+        
+    }
+
+    .family-tree .tittle{
+        width: 40%;
+    }
+
+    .family-tree .tittle h2{
+        font-size: 28px;
+    }
+
+    .body-arvore{
+        width: 700px;
+    }
+
+    #wrapper .label{
+        min-width: 150px;
+        max-width: 150px;
+    }
+
+    #wrapper .branch{
+        margin-left: 140px;
+    }
+}
+
+
+@media screen and (min-width: 1440px) and (max-width: 1919px){
+    .tittle{
+        width: 65%;
+    }
+
+    .tittle h1{
+        font-size: 69px;
+        letter-spacing: 0px;
+    }
+
+    .family-tree .tittle{
+        width: 30%;
+    }
+
+    .family-tree .tittle h2{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1920px) and (max-width:2559px) {
+    .tittle{
+        width: 50%;
+    }
+
+    .tittle h1{
+        font-size: 70px;
+        letter-spacing: 0px;
+    }
+
+    .family-tree .tittle{
+        width: 25%;
+    }
+
+    .family-tree .tittle h2{
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 2560px){
+    .tittle{
+        width: 40%;
+    }
+
+    .tittle h1{
+        font-size: 75px;
+        letter-spacing: 0px;
+    }
+
+    .family-tree .tittle{
+        width: 18%;
+    }
+}
