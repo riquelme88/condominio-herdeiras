@@ -1,0 +1,59 @@
+@media print and (min-width: 2479px) {
+    .tittle{
+        width: 80%;
+        margin-top: 20px;
+        height: 5cm
+    }
+
+    .tittle h1{
+        font-size: 3cm;
+        letter-spacing: 0px;
+        margin-top: 15px;
+    }
+
+    .animal-general{
+        margin-top: 4cm;
+    }
+
+    .animal-detailed{
+        width: 16cm;
+        height: 25cm;
+    }
+
+    .animal-information{
+        width: 16cm;
+        height: 25cm;
+    }
+    .animal-information .animal-image{
+        height: 90%;
+    }
+
+    .family-tree {
+        margin-top: 17cm;
+    }
+
+    .family-tree .tittle{
+        width: 16cm;
+        height: 2.5cm;
+    }
+
+    .family-tree .tittle h2{
+        font-size: 1.2cm;
+        margin-top: 20px;
+    }
+
+    .body-arvore{
+        margin-top: 1cm;
+    }
+
+
+    #wrapper .masc.a1::after,.masc.a2::after,.masc.a3::after,
+    .fem.a1::after,.fem.a2::after,.fem.a3::after{
+        font-size: 18px;
+        margin-top: 50px;
+    }
+
+    #wrapper .masc.a4::after,.fem.a4::after{
+        font-size: 14px;
+    }
+}
