@@ -1,8 +1,11 @@
 @media print and (min-width: 2479px) {
+    
+    
     .tittle{
-        width: 80%;
+        width: 100%;
         margin-top: 20px;
-        height: 5cm
+        height: 5cm;
+        margin-left: 200px;
     }
 
     .tittle h1{

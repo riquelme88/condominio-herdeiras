@@ -52,6 +52,7 @@ main{
     font-family: 'Ubuntu', sans-serif;
 }
 
+/*background de fundo*/
 .animal-detailed .back-image{
     width: inherit;
     height: 370px;
@@ -166,6 +167,7 @@ main{
     display: flex;
 }
 
+/*Background de fundo*/
 #back{
     position: absolute;
     width: inherit;
@@ -174,9 +176,9 @@ main{
     opacity: 0.3;
     background-image: url(/assets/images/CondHerdeirasÍndioGiganteMarcaDagua.png);
     background-repeat: no-repeat;
-    
 }
 
+/*area da arvore genealogica*/
 #wrapper{
     height: 500px;
     display: flex;
@@ -245,6 +247,8 @@ main{
     background-color: #0566C6;
 }
 
+
+/*linhas conectando a arvore genealogica*/
 #wrapper .masc.a1:before{
     content: "";
     width: 2px;
@@ -349,7 +353,11 @@ main{
 .a1,.a2,.a3,.a4{
     margin-left: -120px;
 }
+/*------------------------------------------*/
 
+
+
+/*Tamanho de cada galo*/
 #wrapper .masc.a1::after,.masc.a2::after,.masc.a3::after,
 .fem.a1::after,.fem.a2::after,.fem.a3::after{
     content: "117cm";
