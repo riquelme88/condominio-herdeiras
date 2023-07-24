@@ -350,4 +350,31 @@ main{
     margin-left: -120px;
 }
 
+#wrapper .masc.a1::after,.masc.a2::after,.masc.a3::after,
+.fem.a1::after,.fem.a2::after,.fem.a3::after{
+    content: "117cm";
+    margin-top: 45px;
+    color: #30525b;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    z-index: 1;
+}
+
+#wrapper .masc.a4::after,.fem.a4::after{
+    content: "114cm";
+    color: #30525b;
+    position: absolute;
+    font-size: 13px;
+    font-weight: 700;
+    z-index: 1;
+    margin-left: 220px;
+}
+
+
+
+
+
+
+
 
